@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GT3 · Racing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">GT3 · Racing</a>
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Início</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="categoria.html">Categoria GT3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pilotos.html">Pilotos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="carros.html">Carros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="competições.html">Competições</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pistas.html">Pistas</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- coloquei um carrossel apresentativo, para que a apresentção se torne mais intuitiva. -->
+<header id="bannerGT3" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#bannerGT3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#bannerGT3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#bannerGT3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active position-relative">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ferrari_296_GT3_GIMS_2024_1X7A2375.jpg/1280px-Ferrari_296_GT3_GIMS_2024_1X7A2375.jpg" class="d-block w-100" alt="Ferrari 296 GT3 em exposição">
+        <div class="carousel-caption">
+          <p class="kicker text-white">Gran Turismo de competição</p>
+          <h1>GT3 Racing</h1>
+          <p>Carros esportivos preparados para pista, corridas intensas e marcas famosas disputando desempenho no detalhe.</p>
+          <a class="btn btn-outline-light btn-lg" href="carros.html"><i class="bi bi-speedometer2 me-2"></i>Ver carros</a>
+        </div>
+      </div>
+      <div class="carousel-item position-relative">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Audi_R8_LMS_GT3_Evo_II_%282022%29_%2852566232826%29.jpg" class="d-block w-100" alt="Audi R8 LMS GT3 Evo II">
+        <div class="carousel-caption">
+          <p class="kicker text-white">Tecnologia e equilibrio</p>
+          <h2>BoP na pista</h2>
+          <p>O Balance of Performance ajuda carros diferentes a competirem em condicoes mais proximas.</p>
+          <a class="btn btn-outline-light btn-lg" href="competições.html"><i class="bi bi-trophy me-2"></i>Competições</a>
+        </div>
+      </div>
+      <div class="carousel-item position-relative">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Mercedes-AMG_GT3_IMG_0766.jpg/1280px-Mercedes-AMG_GT3_IMG_0766.jpg" class="d-block w-100" alt="Nissan GT-R NISMO GT3">
+        <div class="carousel-caption">
+          <p class="kicker text-white">Sprint e endurance</p>
+          <h2>Corridas longas</h2>
+          <p>Da prova curta ao desafio de 24 horas, a GT3 aparece em alguns dos eventos mais conhecidos do automobilismo.</p>
+          <a class="btn btn-outline-light btn-lg" href="pilotos.html"><i class="bi bi-person-vcard me-2"></i>Classes de pilotos</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#bannerGT3" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#bannerGT3" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Proximo</span>
+    </button>
+  </header>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Utilizei um container para apresentar uma introdução sobre a categoria GT3. -->
+<div class="container mt-5 mb-5">
+  <h2 class="text-center mb-3">Bem-vindo ao GT3 · Racing</h2>
+  <p class="lead text-center">
+    Um projeto sobre carros GT3, pilotos, competições e modelos famosos das pistas.
+  </p>
+  <p class="fs-5">
+    A categoria GT3 reúne carros esportivos derivados de modelos de rua,
+    preparados para disputar corridas de velocidade e endurance. Neste site,
+    você pode conhecer melhor a categoria, os carros, os pilotos e as principais
+    competições.
+  </p>
+  <div class="text-center mt-4">
+    <a href="categoria.html" class="btn btn-dark">
+      Conhecer a Categoria GT3
+    </a>
+  </div>
+  <hr class="mt-5">
+</div>
+<footer class="bg-dark text-white text-center p-4">
+<h5>GT3 · Racing</h5>
+<p>
+Projeto acadêmico desenvolvido utilizando
+HTML, CSS e Bootstrap.
+</p>
+</footer>
+  </body>
+</html>
