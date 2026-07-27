@@ -24,4 +24,4 @@ Aluno de Sistemas para Internet - IFPB
 
 ## Acesse o projeto
 
-🔗 https://kawe-07.github.io/Projeto-Html-bootstrap/
+🔗 https://kawe-07.github.io/Html-Bootstrap/
